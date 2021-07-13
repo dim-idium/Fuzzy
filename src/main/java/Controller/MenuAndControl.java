@@ -51,7 +51,7 @@ class MenuAndControl {
 
 
         Surface surface = new Surface((int) kn, h);
-        System.out.print("Массив данных для построения поверхности нечеткого вывода");
+        System.out.println("Массив данных для построения поверхности нечеткого вывода");
         float [] ArrayOutParam = surface.ArrayOutParam;
         for (int i = 0; i < kn; i++) {
             System.out.println(ArrayOutParam[i]);
